@@ -90,6 +90,9 @@ public static void main(String[] args) {
 	driver.findElement(By.cssSelector(".btnn")).click();
 	String Confirm_Message = driver.findElement(By.cssSelector(".hero-primary")).getText();
 	Assert.assertTrue(Confirm_Message.equalsIgnoreCase("Thankyou for the order."));
+	System.out.println("welcome");
+	System.out.println("Hellow");
+	System.out.println("HI");
 	driver.quit();
 	
 }
